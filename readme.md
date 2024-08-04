@@ -13,8 +13,8 @@ OpenCV-Python
 tqdm
 
 ## Data Format
-- inputs
-  - train
+| inputs
+—— train
     - img
     - lbl
 
