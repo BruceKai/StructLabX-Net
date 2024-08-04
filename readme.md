@@ -13,21 +13,10 @@ OpenCV-Python
 tqdm
 
 ## Data Format
--inputs
- -train
-   -img
-    -000001.tif
-    -000002.tif
-   -lbl
-    -000001.tif
-    -000002.tif
- -val
-   -img
-    -000001.tif
-    -000002.tif
-   -lbl
-    -000001.tif
-    -000002.tif
+- inputs
+  - train
+    - img
+    - lbl
 
 
 ## Usage
