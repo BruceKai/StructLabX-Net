@@ -1,4 +1,4 @@
-# A cost-effective and robust mapping method for diverse crop types using weakly supervised semantic segmentation with sparse point samples
+# <p align="center">A cost-effective and robust mapping method for diverse crop types using weakly supervised semantic segmentation with sparse point samples</p>
 
 This is an official implementation of the "A cost-effective and robust mapping method for diverse crop types using weakly supervised semantic segmentation with sparse point samples".
 
