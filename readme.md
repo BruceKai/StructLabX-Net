@@ -6,14 +6,28 @@ This is an official implementation of the "A cost-effective and robust mapping m
 ![image](https://github.com/BruceKai/StructLabX-Net/assets/51935494/18496ba8-f5a7-4cfc-83e9-ad5abd0a79b3)
 
 ## Requirement 
-<div style="box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); padding: 16px;">
+
 PyTorch
 Numpy
 OpenCV-Python
 tqdm
-</div>
 
-
+## Data Format
+-inputs
+ -train
+   -img
+    -000001.tif
+    -000002.tif
+   -lbl
+    -000001.tif
+    -000002.tif
+ -val
+   -img
+    -000001.tif
+    -000002.tif
+   -lbl
+    -000001.tif
+    -000002.tif
 
 
 ## Usage
