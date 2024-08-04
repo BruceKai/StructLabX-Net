@@ -57,7 +57,6 @@ class MyDataset(Dataset):
         # The target tensor has a shape of (2, h, w). The first channel represents the class attribute of each pixel, 
         # with values ranging from [0, k-1]. The second channel has binary values (0 or 1) indicating which pixels are labeled.
         
-        target = target[-2:,:,:]
         
         # img = img.read()
         img = img/10000.
