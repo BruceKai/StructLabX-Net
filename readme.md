@@ -79,7 +79,7 @@ if torch.cuda.device_count() > 1:
 train_folder = r'**/train'
 val_folder = r'**/val'
 
-model_name = 'utemponet_with_aug_new_struture'
+model_name = 'model_name'
 
 model = model.to(device)
 
