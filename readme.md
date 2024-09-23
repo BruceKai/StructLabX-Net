@@ -1,7 +1,9 @@
 # <p align="center">A cost-effective and robust mapping method for diverse crop types using weakly supervised semantic segmentation with sparse point samples</p>
 
 This is an official implementation of the "A cost-effective and robust mapping method for diverse crop types using weakly supervised semantic segmentation with sparse point samples".
+
 doi：https://doi.org/10.1016/j.isprsjprs.2024.09.017
+
 The overall structure of StrucLabX-Net for weakly supervised semantic segmentation of satellite image time series. 
 ![image](https://github.com/user-attachments/assets/5a7f4bdc-7810-470e-897b-333240ca6a24)
 
