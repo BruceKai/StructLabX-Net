@@ -20,7 +20,7 @@ class FocalLoss(nn.Module):
             input = input.contiguous().view(-1, input.size(2))  # N,H*W,C => N*H*W,C
         target = target.view(-1, 1)
         if input.squeeze(1).dim() == 1:
-            logpt = torch.sigmoid(input)
+            logpt = torch.log(torch.sigmoid(input))
             logpt = logpt.view(-1)
         else:
             logpt = F.log_softmax(input, dim=-1)
